@@ -22,7 +22,7 @@ import <if_OS_Storage.camkes>;
 
  //------------------------------------------------------------------------------
 
-#define ChanMux_Storage_COMPONENT_DEFINE( \
+#define Storage_ChanMux_COMPONENT_DEFINE( \
     _name_) \
     \
     component _name_ { \
@@ -35,7 +35,7 @@ import <if_OS_Storage.camkes>;
 
 //------------------------------------------------------------------------------
 
-#define ChanMux_Storage_INSTANCE_CONNECT_CLIENT( \
+#define Storage_ChanMux_INSTANCE_CONNECT_CLIENT( \
     _inst_, \
     _rpc_, \
     _port_) \

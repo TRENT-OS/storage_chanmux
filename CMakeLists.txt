@@ -15,14 +15,14 @@ cmake_minimum_required(VERSION 3.17)
 #   <name>
 #     required, component instance name
 #
-function(ChanMux_Storage_DeclareCAmkESComponent
+function(Storage_ChanMux_DeclareCAmkESComponent
     name
 )
 
     DeclareCAmkESComponent(
         ${name}
         SOURCES
-            ${CMAKE_CURRENT_FUNCTION_LIST_DIR}/ChanMux_Storage.c
+            ${CMAKE_CURRENT_FUNCTION_LIST_DIR}/Storage_ChanMux.c
         C_FLAGS
             -Wall -Werror
         LIBS

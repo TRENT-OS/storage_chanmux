@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "LibUtil/BitConverter.h"
+#include "lib_util/BitConverter.h"
 
 /*---------------PROTOCOL--------------------*/
 /*

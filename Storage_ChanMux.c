@@ -5,7 +5,7 @@
  * This component will communicate with the chanmux for accessing the underlying
  * storage.
  */
-#include "LibDebug/Debug.h"
+#include "lib_debug/Debug.h"
 #include "ChanMuxNvmDriver.h"
 
 #include <inttypes.h>

@@ -29,7 +29,7 @@ function(Storage_ChanMux_DeclareCAmkESComponent
             -Wall -Werror
         LIBS
             os_core_api
-            os_libs
+            lib_debug
             proxy_nvm
     )
 

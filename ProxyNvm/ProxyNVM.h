@@ -16,7 +16,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 
-#include "LibMem/Nvm.h"
+#include "lib_mem/Nvm.h"
 #include "ChanMux/ChanMuxClient.h"
 
 

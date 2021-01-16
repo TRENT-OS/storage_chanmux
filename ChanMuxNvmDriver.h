@@ -6,7 +6,6 @@
 
 #pragma once
 
-#include "LibMem/Nvm.h"
 #include "ChanMux/ChanMuxClient.h"
 #include "ProxyNVM.h"
 

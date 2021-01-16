@@ -6,7 +6,6 @@
  *
  */
 
-#include "LibMem/Nvm.h"
 #include "ChanMux/ChanMuxClient.h"
 #include "ChanMuxNvmDriver.h"
 

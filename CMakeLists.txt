@@ -1,12 +1,16 @@
 #
 # ChanMux Storage driver
 #
-# Copyright (C) 2020, Hensoldt Cyber GmbH
+# Copyright (C) 2020-2021, HENSOLDT Cyber GmbH
 #
 
 cmake_minimum_required(VERSION 3.17)
 
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/ProxyNvm)
+# This file is included by the SDK's CMakeLists.txt, so we are running in its
+# scope here and not in our own scope. As a consequence, any relative paths
+# given here aren't relative to the directory this file is located in, but
+# relative to whoever includes us.
+add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/ProxyNvm")
 
 #-------------------------------------------------------------------------------
 # Declare ChanMux Storage Driver CAmkES Component

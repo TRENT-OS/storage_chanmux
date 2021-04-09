@@ -9,7 +9,7 @@
 #include "ChanMux/ChanMuxClient.h"
 #include "ProxyNVM.h"
 
-#include <limits.h>
+#include <limits.h> // needed to get PAGE_SIZE
 
 typedef struct {
     ProxyNVM        proxyNVM;

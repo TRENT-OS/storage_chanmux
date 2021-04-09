@@ -6,8 +6,10 @@
  *
  */
 
-#include "ChanMux/ChanMuxClient.h"
 #include "ChanMuxNvmDriver.h"
+
+#include "ChanMux/ChanMuxClient.h"
+#include "ProxyNVM.h"
 
 #include <stdint.h>
 #include <stdbool.h>

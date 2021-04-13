@@ -142,7 +142,7 @@ size_t ProxyNVM_write(Nvm* nvm, size_t addr, void const* buffer, size_t length)
     {
         Debug_LOG_ERROR(
             "%s: Unable to write to the given area (out of bounds): "
-            "addr = %u, length = %u",
+            "addr = %zu, length = %zu",
             __func__,
             addr,
             length);
@@ -217,7 +217,7 @@ size_t ProxyNVM_read(Nvm* nvm, size_t addr, void* buffer, size_t length)
     {
         Debug_LOG_ERROR(
             "%s: Unable to write to the given area (out of bounds): "
-            "addr = %u, length = %u",
+            "addr = %zu, length = %zu",
             __func__,
             addr,
             length);
@@ -291,7 +291,7 @@ size_t ProxyNVM_erase(Nvm* nvm, size_t addr, size_t length)
     {
         Debug_LOG_ERROR(
             "%s: Unable to write to the given area (out of bounds): "
-            "addr = %u, length = %u",
+            "addr = %zu, length = %zu",
             __func__,
             addr,
             length);

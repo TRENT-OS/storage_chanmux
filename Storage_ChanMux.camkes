@@ -15,8 +15,6 @@ import <std_connector.camkes>;
 import <if_OS_Storage.camkes>;
 /** @endcond */
 
-#include "ChanMux/ChanMuxHelper.camkes"
-
 /**
  * @hideinitializer
  */
